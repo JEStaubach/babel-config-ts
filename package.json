@@ -1,0 +1,28 @@
+{
+  "name": "@jestaubach/babel-config-ts",
+  "version": "0.0.1",
+  "description": "Shared babel configuration for typescript packages",
+  "license": "MIT",
+  "private": false,
+  "main": "index.js",
+  "prettier": "@jestaubach/prettier-config",
+  "eslintConfig": {
+    "extends": "@jestaubach/eslint-config"
+  },
+  "devDependencies": {
+    "@jestaubach/eslint-config": "0.0.1",
+    "@jestaubach/prettier-config": "0.0.1"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "@babel/preset-typescript": "^7.7.7",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.4"
+  }
+}
